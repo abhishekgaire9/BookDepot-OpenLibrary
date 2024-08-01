@@ -1,0 +1,19 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCOajSGBdfQ4ZQLHgVjbM6hEHXtbmIytO8",
+    authDomain: "book-depot.firebaseapp.com",
+    projectId: "book-depot",
+    storageBucket: "book-depot.appspot.com",
+    messagingSenderId: "616702573444",
+    appId: "1:616702573444:web:1e66ed78c7aa1e13c57bd1"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
